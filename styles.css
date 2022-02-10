@@ -1,0 +1,61 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0e0afdad;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    animation: changecolour 4s infinite;
+
+}
+
+@keyframes changecolour {
+    0%{background-color: beige;}
+    25%{background-color: blanchedalmond;}
+    50%{background-color: rgba(37, 209, 209, 0.281);}
+    75%{background-color: blue;}
+    100%{background-color: greenyellow;}
+        
+    }
+
+
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:#1deb38;
+    animation: change 6s infinite;
+}
+@keyframes change {
+    0%{background-color: rgb(55, 184, 156);}
+    25%{background-color: rgb(218, 28, 218);}
+    50%{background-color: rgba(191, 247, 37, 0.829);}
+    75%{background-color: rgb(236, 198, 29);}
+    100%{background-color: rgb(255, 0, 0);}
+        
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid #0fe4e4;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    /* modify margin and padding here*/
+    padding: 200px;
+    margin: 3px;
+    width:310px;
+    font-family:sans-serif;
+    
+}
